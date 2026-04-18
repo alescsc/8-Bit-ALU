@@ -1,0 +1,499 @@
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:46:45 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:46:45 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:46:45 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+run -all
+# Toate testele au fost rulate!
+# ** Note: $stop    : tb/tb_ALU.v(64)
+#    Time: 1050 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 64
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:47:48 on Apr 18,2026, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:47:48 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# ** Error: tb/tb_ALU.v(59): (vlog-2730) Undefined variable: 'IN'.
+# ** Error: (vlog-13069) tb/tb_ALU.v(59): near "EOF": syntax error, unexpected end of source code.
+# End time: 21:47:48 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:48:50 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:48:50 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:48:50 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+run -all
+# ** Note: $stop    : tb/tb_ALU.v(74)
+#    Time: 1320 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 74
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:49:54 on Apr 18,2026, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:49:54 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:49:54 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:49:54 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+run -all
+# ** Note: $stop    : tb/tb_ALU.v(29)
+#    Time: 150 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 29
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:52:19 on Apr 18,2026, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:52:19 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:52:19 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:52:19 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+run -all
+# ** Note: $stop    : tb/tb_ALU.v(29)
+#    Time: 150 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 29
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:53:04 on Apr 18,2026, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:53:04 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:53:04 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:53:05 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+run -all
+# ** Note: $stop    : tb/tb_ALU.v(33)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 33
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:53:38 on Apr 18,2026, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:53:39 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:53:39 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:53:39 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+run -all
+# ** Note: $stop    : tb/tb_ALU.v(33)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 33
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:57:31 on Apr 18,2026, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:57:31 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:57:31 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:57:32 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+run -all
+# ** Note: $stop    : tb/tb_ALU.v(33)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 33
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:57:48 on Apr 18,2026, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:57:48 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:57:48 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:57:49 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+run -all
+# ** Note: $stop    : tb/tb_ALU.v(33)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 33
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:58:36 on Apr 18,2026, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:37 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:58:37 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:58:37 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+run -all
+# ** Note: $stop    : tb/tb_ALU.v(57)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 57
+do run.do
+# src/*.v tb/tb_ALU.v
+# tb_ALU
+# End time: 21:59:44 on Apr 18,2026, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:59:44 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 21:59:44 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU 
+# Start time: 21:59:44 on Apr 18,2026
+# Loading work.tb_ALU
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU/OP_MODE \
+sim:/tb_ALU/INBUS \
+sim:/tb_ALU/OUTBUS
+run -all
+# Toate testele au fost finalizate!
+# ** Note: $stop    : tb/tb_ALU.v(74)
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at tb/tb_ALU.v line 74
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
