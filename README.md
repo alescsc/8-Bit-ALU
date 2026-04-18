@@ -23,3 +23,36 @@ Toată logica a fost verificată prin simulări în **ModelSim**, asigurându-ne
 
 ---
 
+### Structura Proiectului
+
+```text
+8-Bit-ALU/
+├── resources/
+│   ├── controlunitflags.pdf       # Documentatie semnale unitate de control
+│   ├── data_path.png              # Schema bloc a caii de date
+│   └── state_machine.png          # Diagrama de stari a automatului (FSM)
+├── src/
+│   ├── ALU.v                      # Modulul principal (Top Level)
+│   ├── adder_9bit.v               # Sumator pe 9 biti
+│   ├── control_unit.v             # Unitatea de control
+│   ├── counter_3bit.v             # Contor pentru iteratii (3 biti)
+│   ├── datapath.v                 # Calea de date (Data Path)
+│   ├── dff_1bit.v                 # Bistabil D pe 1 bit
+│   ├── dff_8bit.v                 # Registru de 8 biti (A, Q, M)
+│   ├── mux_9bit.v                 # Multiplexor pe 9 biti
+│   ├── shifter_left.v             # Unitate shiftare stanga (DIV)
+│   ├── shifter_right.v            # Unitate shiftare dreapta (MUL)
+│   └── wordgate_xor.v             # Logica XOR pentru scadere
+├── tb/
+│   ├── tb_ALU1.v                  # Testbench set 1
+│   ├── tb_ALU2.v                  # Testbench set 2
+│   ├── tb_ALU3.v                  # Testbench set 3
+│   └── tb_ALU4.v                  # Testbench set 4
+├── testing_phase/
+│   ├── waveform_division.png      # Rezultat impartire
+│   ├── waveform_multiplication.png # Rezultat inmultire
+│   ├── waveform_subtraction.png   # Rezultat scadere
+│   └── waveform_sum.png           # Rezultat adunare
+├── work/                          # Biblioteca ModelSim
+├── README.md                      # Fisierul de documentatie
+└── run.do                         # Script rulare ModelSim
