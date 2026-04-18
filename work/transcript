@@ -1,0 +1,52 @@
+do run.do
+# src/*.v tb/tb_ALU4.v
+# tb_ALU4
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:53:49 on Apr 18,2026
+# vlog -reportprogress 300 src/ALU.v src/adder_9bit.v src/control_unit.v src/counter_3bit.v src/datapath.v src/dff_1bit.v src/diff_8bit.v src/mux_9bit.v src/shifter_left.v src/shifter_right.v src/wordgate_xor.v tb/tb_ALU4.v 
+# -- Compiling module ALU
+# -- Compiling module adder_9bit
+# -- Compiling module control_unit
+# -- Compiling module counter_3bit
+# -- Compiling module datapath
+# -- Compiling module dff_1bit
+# -- Compiling module dff_8bit
+# -- Compiling module mux_9bit
+# -- Compiling module shifter_left
+# -- Compiling module shifter_right
+# -- Compiling module wordgate_xor
+# -- Compiling module tb_ALU4
+# 
+# Top level modules:
+# 	tb_ALU4
+# End time: 22:53:49 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_ALU4 
+# Start time: 22:53:49 on Apr 18,2026
+# Loading work.tb_ALU4
+# Loading work.ALU
+# Loading work.datapath
+# Loading work.dff_8bit
+# Loading work.mux_9bit
+# Loading work.wordgate_xor
+# Loading work.adder_9bit
+# Loading work.shifter_right
+# Loading work.shifter_left
+# Loading work.counter_3bit
+# Loading work.dff_1bit
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/tb_ALU4/OP_MODE \
+sim:/tb_ALU4/INBUS \
+sim:/tb_ALU4/OUTBUS
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: alex_  Hostname: LAPTOP-FIZA  ProcessID: 2604
+#           Attempting to use alternate WLF file "./wlftgyhm8b".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgyhm8b
+run -all
+# ** Note: $stop    : tb/tb_ALU4.v(27)
+#    Time: 640 ns  Iteration: 0  Instance: /tb_ALU4
+# Break in Module tb_ALU4 at tb/tb_ALU4.v line 27
+# End time: 22:55:26 on Apr 18,2026, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 2

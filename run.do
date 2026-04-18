@@ -6,8 +6,8 @@
 # set name of the top module in variable topmodule
 # Example:-----------------------------------------
 # set topmodule mux2s_tb
-set sourcefiles {src/*.v tb/tb_ALU.v}
-set topmodule tb_ALU
+set sourcefiles {src/*.v tb/tb_ALU4.v}
+set topmodule tb_ALU4
 
 ###################################################
 #####DO NOT MODIFY THE SCRIPT BELLOW THIS LINE#####
@@ -29,6 +29,3 @@ if [catch "eval vlog $sourcefiles"] {
 
 # Run the simulation with +acc to make all signals visible in waveforms
 vsim -voptargs=+acc $topmodule
-
-# Optional: Daca vrei sa ruleze testul automat pana la final, decomenteaza linia de mai jos
-# run -all
