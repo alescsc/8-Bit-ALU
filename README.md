@@ -3,6 +3,7 @@
 ### 👥 Autori:
 * **Student:** Vlonga Nicoleta-Dorina
 * **Student:** Fizǎdean Alexandru
+* **Facultate:** Automaticǎ și Calculatoare
 * **Anul:** 2 | **Grupa:** C.3.2
 * **Materia:** Calculatoare Numerice
 
